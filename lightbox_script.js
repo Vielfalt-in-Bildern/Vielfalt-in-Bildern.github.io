@@ -54,7 +54,7 @@ function createSlides (img) {
 function createCarousel (img) {
   const markup = `
     <!-- Lightbox Carousel -->
-    <div id="lightboxCarousel" class="carousel slide carousel-fade" data-bs-ride="true" data-interval="false">
+    <div id="lightboxCarousel" class="carousel slide carousel-fade" data-bs-ride="true" data-bs-interval="99999999999999999999">
       <!-- Indicators/dots -->
       <div class="carousel-indicators">
         ${createIndicators(img)}
