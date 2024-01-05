@@ -114,6 +114,48 @@ body {
   object-fit: contain;
 }
 
+body{
+    min-height: 100vh;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+}
+
+nav h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Pacifico';
+    font-size: xx-large
+}
+
+nav + *{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 8px;
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 5px rgba(0,0,0,0.12);
+}
+footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
 @media (min-width: 1400px) {
   .lightbox-modal .carousel-inner {
     max-width: 60%;
