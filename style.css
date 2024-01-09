@@ -153,6 +153,14 @@ footer p {
     width: 100%;
 }
 
+.iframe-padding-bottom{
+  padding-bottom: 56.25%;
+}
+
+.iframe-max-size{
+  max-width: 900px;
+}
+
 @media (min-width: 1400px) {
   .lightbox-modal .carousel-inner {
     max-width: 60%;
